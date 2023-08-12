@@ -18,6 +18,9 @@ const Navbar = () => {
           <li className="hover:text-green-600">
             <Link to={"/"}>Home</Link>
           </li>
+          <li className="hover:text-green-600">
+            <Link to={"#Gallery"}>Gallery</Link>
+          </li>
           <li className="group relative">
             <Link to={"/"} className="hover:text-green-600">
               Catalog

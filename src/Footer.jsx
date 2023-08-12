@@ -18,7 +18,7 @@ const Footer = () => {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">
                 Quick Links
               </h2>
-              <ul className="text-gray-500  font-medium">
+              <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <a href="Images" className="hover:underline"></a>
                 </li>

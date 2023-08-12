@@ -9,7 +9,7 @@ const Hero = () => {
             <span className="text-accent"> Plants</span>
           </p>
           <p className="text-lg md:text-start w-full text-[#42682f]">
-            To plant a garden is to believe tomorrow
+            To plant a garden is to believe in tomorrow
           </p>
           <div className="buttons text-sm font-bold flex gap-3 text-white md:items-start md:justify-start justify-center w-full">
             <button className="p-3 bg-accent rounded-lg hover:scale-105 ease-in-out hover:shadow-green-300 shadow-md duration-150">

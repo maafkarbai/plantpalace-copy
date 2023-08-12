@@ -1,10 +1,10 @@
 const Gallery = () => {
   return (
-    <section className="max-w-7xl mx-auto py-20 p-6">
+    <section className="max-w-7xl mx-auto py-20 p-6" id="Gallery">
       <h2 className="text-3xl text-center  mb-4 bg-accent p-2 text-[#334741]">
         Gallery
       </h2>
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-2  animate-fade ease-in-out">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-5 animate-fade ease-in-out">
         <img
           src="Images/Gallery/G1.jpg"
           className="  mx-auto rounded-lg cursor-pointer opacity-95 hover:opacity-100 hover:scale-110 ease-in-out duration-300"
