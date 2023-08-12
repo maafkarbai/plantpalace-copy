@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="mx-auto animate-fade ease-in-out py-20 p-6">
+    <section className="mx-auto animate-fade ease-in-out py-20 p-6" id="About">
       <div className="flex sm:flex-row flex-col max-w-7xl bg-accent text-black mx-auto p-6 rounded-md shadow-md">
         <img
           src="Images/AboutImage.jpg"

@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link to={"/"}>Home</Link>
           </li>
           <li className="hover:text-green-600">
-            <Link to={"#Gallery"}>Gallery</Link>
+            <a href="#Gallery">Gallery</a>
           </li>
           <li className="group relative">
             <Link to={"/"} className="hover:text-green-600">
@@ -47,33 +47,16 @@ const Navbar = () => {
           </li>
 
           <li className="hover:text-green-600">
-            <Link to={"/"}>Feedback</Link>
+            <Link to={"/Contact"}>Feedback</Link>
           </li>
           <li className="hover:text-green-600">
             <Link to={"/Contact"}>Contact</Link>
           </li>
           <li>
-            <Link to={"/"}>About</Link>
+            <a href="#About">About</a>
           </li>
         </ul>
-        <div className="">
-          <a href="">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
-              />
-            </svg>
-          </a>
-        </div>
+
         <button className="md:hidden" onClick={toggleMobileNav}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +76,7 @@ const Navbar = () => {
       </nav>
 
       <nav
-        className={`mobilenavbar absolute animate-fade w-full p-7 text-white font-semibold z-100 top-24 bg-[#22c55e] right-0 left-0 rounded-b-md md:hidden ${
+        className={`mobilenavbar absolute animate-fade w-full opacity-90  p-7 text-white font-semibold z-100 top-24 bg-[#22c55e] right-0 left-0 rounded-b-md md:hidden ${
           isMobileNavVisible ? "" : "hidden"
         }`}
       >
@@ -102,9 +85,8 @@ const Navbar = () => {
             <Link to={"/"}>Home</Link>
           </li>
           <li className="text-center">
-            <Link to={"/"}>Catalog</Link>
             <div className="block">
-              <ul className="flex flex-col items-center text-white catalogs">
+              <ul className="flex flex-col gap-5 items-center text-white catalogs">
                 <li>
                   <a href="#">All</a>
                 </li>
@@ -124,13 +106,13 @@ const Navbar = () => {
             </div>
           </li>
           <li>
-            <Link to={"/"}>Feedback</Link>
+            <Link to={"/Contact"}>Feedback</Link>
           </li>
           <li>
             <Link to={"/Contact"}>Contact</Link>
           </li>
           <li>
-            <Link to={"/"}>About</Link>
+            <a href="#About">About</a>
           </li>
         </ul>
       </nav>
