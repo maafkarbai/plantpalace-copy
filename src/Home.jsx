@@ -3,16 +3,18 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
+import About from "./About";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
       <Products />
+      <About />
       <Gallery />
       <Footer />
-    </div>
+    </>
   );
 };
 

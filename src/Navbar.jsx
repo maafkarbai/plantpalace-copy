@@ -49,6 +49,9 @@ const Navbar = () => {
           <li className="hover:text-green-600">
             <Link to={"/"}>Contact</Link>
           </li>
+          <li>
+            <Link to={"/"}>About</Link>
+          </li>
         </ul>
         <div className="">
           <a href="">
@@ -122,6 +125,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link to={"/"}>Contact</Link>
+          </li>
+          <li>
+            <Link to={"/"}>About</Link>
           </li>
         </ul>
       </nav>
