@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to={"/"} className="hover:text-green-600">
               Catalog
             </Link>
-            <div className="absolute hidden group-hover:block bg-green-600">
+            <div className="absolute hidden group-hover:block bg-accent">
               <ul className="flex flex-col hover:animate-fade-in gap-2 items-start justify-between p-5 rounded-b-md text-white">
                 <li>
                   <a href="#">All</a>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <Link to={"/"}>Feedback</Link>
           </li>
           <li className="hover:text-green-600">
-            <Link to={"/"}>Contact</Link>
+            <Link to={"/Contact"}>Contact</Link>
           </li>
           <li>
             <Link to={"/"}>About</Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
             <Link to={"/"}>Feedback</Link>
           </li>
           <li>
-            <Link to={"/"}>Contact</Link>
+            <Link to={"/Contact"}>Contact</Link>
           </li>
           <li>
             <Link to={"/"}>About</Link>

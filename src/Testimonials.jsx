@@ -23,10 +23,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section
-      className="max-w-7xl mx-auto py-20 p-6 grid bg-accent"
-      id="Gallery"
-    >
+    <section className="max-w-7xl mx-auto py-20 p-6 grid" id="Gallery">
       <h2 className="text-3xl text-center  mb-4 bg-accent p-2 text-[#334741]">
         Testimonials
       </h2>
@@ -34,7 +31,7 @@ const Testimonials = () => {
         {testimonials.map((testimonial) => (
           <div
             key={testimonial.id}
-            className="flex flex-col rounded max-w-md p-8 bg-white gap-5"
+            className="flex flex-col rounded max-w-xs mx-auto p-8 gap-5"
           >
             <img
               src={testimonial.imageurl}
