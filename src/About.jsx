@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <section className="mx-auto animate-fade ease-in-out">
-      <div className="flex sm:flex-row flex-col max-w-7xl bg-green-400 text-white mx-auto p-6 rounded-md shadow-md">
+    <section className="mx-auto animate-fade ease-in-out py-20 p-6">
+      <div className="flex sm:flex-row flex-col max-w-7xl bg-[#00867a] text-white mx-auto p-6 rounded-md shadow-md">
         <img
           src="Images/AboutImage.jpg"
           className="drop-shadow-md h-96 object-cover"

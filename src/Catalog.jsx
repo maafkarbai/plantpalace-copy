@@ -31,8 +31,10 @@ const Catalog = () => {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto">
-      <h2 className="text-3xl text-center mb-4">Browse Catalog</h2>
+    <section className="max-w-7xl mx-auto py-20 p-6">
+      <h2 className="text-3xl text-center  mb-4 bg-accent p-2 text-[#334741]">
+        Browse Catalog
+      </h2>
       <a className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 text-center p-6 cursor-pointer ">
         {decription.map((item) => (
           <div

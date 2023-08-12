@@ -38,7 +38,9 @@ const Product = () => {
 
   return (
     <section className="max-w-6xl mx-auto">
-      <h2 className="text-3xl text-center mb-4">Products</h2>
+      <h2 className="text-3xl text-center  mb-4 bg-accent p-2 text-[#334741]">
+        Products
+      </h2>{" "}
       <div className="searchbar">
         <form
           action="#"
